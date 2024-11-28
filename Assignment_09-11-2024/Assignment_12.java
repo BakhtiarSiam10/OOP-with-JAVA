@@ -11,6 +11,7 @@ public class Assignment_12 {
             System.out.print("Enter number " + i + ": ");
             sum += scanner.nextInt();
         }
+        
         double average = sum / 5.0;
         System.out.println("Sum: " + sum);
         System.out.println("Average: " + average);
