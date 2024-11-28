@@ -1,21 +1,20 @@
-//12.	Write a program in Java to input 5 numbers from the keyboard and find their sum and average.
+//11.	Write a Java program to display n terms of natural numbers and their sum.
 import java.util.Scanner;
 
-public class Assignment_12 {
+public class Assignment_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int sum = 0;
+        System.out.print("Enter the number of terms:  ");
+        int n = scanner.nextInt();
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.print("Enter number " + i + ": ");
-            sum += scanner.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(i + " ");
+            sum += i;
         }
         
-        double average = sum / 5.0;
-        System.out.println("Sum: " + sum);
-        System.out.println("Average: " + average);
-
+        System.out.println("\nSum:  " + sum);
         scanner.close();
     }
 }
