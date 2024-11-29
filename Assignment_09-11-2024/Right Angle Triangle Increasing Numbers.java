@@ -1,7 +1,7 @@
 //18. Write a Java program to make such a pattern like a right-angle triangle with the number increased by 1.
 import java.util.Scanner;
 
-public class RightAngleTriangleIncreasingNumbers {
+public class Assignment_18 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
